@@ -77,9 +77,9 @@ Body:
 2.- Get: 
 * Get Blockchain 
 
-URL: http://localhost:<port>/blockchain
+URL: http://localhost:port/blockchain
 
-Note: <port> is the Port: 3001 ... 3005
+Note: *port* is the Port: 3001 ... 3005
 
 * Consensus
 
