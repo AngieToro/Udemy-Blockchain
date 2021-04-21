@@ -19,7 +19,8 @@ Open 5 terminals for each Node
 
 
 #### Open Postman 
-1.- Post: 
+1. Post: 
+
 * Register a node
 
 URL: http://localhost:3002/register-node
@@ -28,6 +29,7 @@ Body:
 {
     "newNodeUrl": "http://localhost:3002"
 }
+
 
 * Register multiple nodes at once
 
@@ -42,6 +44,7 @@ Body:
     ]
 }
 
+
 * Register a node in his server and broadcast it the network - Connect all nodes to each other
 
 URL: http://localhost:3001/register-and-broadcast-node
@@ -50,6 +53,7 @@ Body:
 {
     "newNodeUrl": "http://localhost:3002"
 }
+
 
 * Transaction
 
@@ -61,6 +65,7 @@ Body: (example)
     "sender": "5353453465GDGGG",
     "recipient": "6646YGHFHGHRG"
 }
+
 
 * Transaction broadcast
 
@@ -74,12 +79,15 @@ Body:
 }
 
 
-2.- Get: 
+
+2. Get: 
+
 * Get Blockchain 
 
 URL: http://localhost:port/blockchain
 
 Note: *port* is the Port: 3001 ... 3005
+
 
 * Consensus
 
